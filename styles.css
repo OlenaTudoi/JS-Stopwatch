@@ -1,0 +1,43 @@
+:root{
+  --prime-color:#ffac05;
+  --secondary-color:#ffffff;
+}
+
+body{
+    background-color: var(--prime-color);
+    font-family: Helvetica;
+    letter-spacing: 0.2em;
+    height: 100%;
+    color:var(--secondary-color);
+    
+}
+h1,h2, p{
+    font-size: 1.8em;
+    font-weight: 100;
+    text-align:center;
+    margin: 30px;
+}
+
+button{
+    background-color: var(--prime-color);
+    color: var(--secondary-color);
+    height: 50px;
+    width: 140px;
+    margin: 1.5rem;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    border: solid 1.5px var(--secondary-color);
+    cursor: pointer;
+ }
+
+ button:hover{
+    background-color: var(--secondary-color);
+    color:var(--prime-color);
+    
+ }
+
+ div{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
